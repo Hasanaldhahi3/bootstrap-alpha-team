@@ -1,89 +1,93 @@
 .navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    flex-basis: auto;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
-body{
-    /* background-color: #768DF7; */
-    font-family: 'Open Sans', sans-serif;
-    background-color: #fff;
-
-}
-
-img{
-    max-width: 100%;
-    z-index: 0;
-}
-.main-content{
-    display: flex;
-    justify-content: space-between;
-    margin: 7rem 0rem;
-    height: stretch;
-}
-.section-hero{
-    background-color: #DEE0E7;
-    position: relative;
-    z-index: 2;
-}
-.main-content-box1{
-    padding-right: 1rem;
-}
-.main-content-box2{
-    padding-left: 1rem;
-}
-.main-content-box1-text{
-    font-size: 2.5rem;
-    text-transform: uppercase;
+body {
+  /* background-color: #768DF7; */
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
 }
 
-.main-content-box1-text-sub{
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+img {
+  max-width: 100%;
+  z-index: 0;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 7rem 0rem;
+  height: stretch;
+}
+.section-hero {
+  background-color: #dee0e7;
+  position: relative;
+  z-index: 2;
+}
+.main-content-box1 {
+  padding-right: 1rem;
+}
+.main-content-box2 {
+  padding-left: 1rem;
+}
+.main-content-box1-text {
+  font-size: 2.5rem;
+  text-transform: uppercase;
 }
 
-.main-content-box1> article{
-    margin-top: 5rem;
+.main-content-box1-text-sub {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-svg{
-    position: absolute;
-    top: 75%;    
-    z-index: -1;
+.main-content-box1 > article {
+  margin-top: 5rem;
+}
+
+svg {
+  position: absolute;
+  top: 75%;
+  z-index: -1;
 }
 
 .section-sevices {
-    /* text-align: center; */
-    max-width: 85%;
-    margin: auto;
-    background-color: #768Df7;
+  /* text-align: center; */
+  max-width: 85%;
+  margin: auto;
+  background-color: #768df7;
 }
 
-.section-sevices article{
-    margin-bottom: 3rem;
-    text-align: center;
+.section-sevices article {
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
-.section-sevices-text{
-    font-size: 2rem;
-    /* text-align: left; */
+.section-sevices-text {
+  font-size: 2rem;
+  /* text-align: left; */
 }
 
 .section-sevices-boxs {
-    
 }
-.section-sevices-text-sub{
-    font-size: 1.2rem;
-    /* text-align: left; */
+.section-sevices-text-sub {
+  font-size: 1.2rem;
+  /* text-align: left; */
 }
 
-.sevices-box{
-    background-color: #fff;
-    height: 200px;
-    padding: 1rem 2rem;
-    
+.sevices-box {
+  background-color: #fff;
+  height: 200px;
+  padding: 1rem 2rem;
 }
 /* 
 .sevices-box{
     background-color: #fff;
 } */
+
+.container-action {
+}
+
+p .text-md-center {
+  height: 200px;
+}
