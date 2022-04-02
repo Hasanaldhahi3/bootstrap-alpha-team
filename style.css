@@ -88,6 +88,29 @@ svg {
 .container-action {
 }
 
-p .text-md-center {
-  height: 200px;
+.section-join {
+  background: rgb(231, 231, 231);
+}
+
+.btn-outline-secondary {
+  color: #fff;
+  background-color: #0099ff;
+  width: 200px;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 0;
+}
+
+h5 {
+  color: rgb(63, 95, 241);
+}
+
+p {
+  margin: 2px;
+}
+footer li {
+  margin: 0;
+  padding: 0;
 }
